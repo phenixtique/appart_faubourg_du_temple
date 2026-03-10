@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-en="Apartment Guide">Guide de l'appartement</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ TOP HEADER ═══════════════════════════════════════ -->
+  <header class="top-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-name">
+        🏡 <span data-en="My Apartment">Mon Appartement</span>
+      </a>
+      <div class="header-right">
+        <nav class="desktop-nav">
+          <a href="index.html"            >🏠 <span data-en="Home">Accueil</span></a>
+          <a href="arrivee.html"          >🔑 <span data-en="Arrival">Arrivée</span></a>
+          <a href="appartement.html"      >🛋️ <span data-en="Apartment">Appart</span></a>
+          <a href="regles.html"           >📋 <span data-en="Rules">Règles</span></a>
+          <a href="recommandations.html"  >📍 <span data-en="Tips">Bons plans</span></a>
+          <a href="depart.html"           >🚪 <span data-en="Check-out">Départ</span></a>
+          <a href="contact.html"          >📞 Contact</a>
+        </nav>
+        <button id="lang-btn" onclick="toggleLang()">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN CONTENT ══════════════════════════════════════ -->
+  <main>
+
+    <div class="hero">
+      <span class="hero-icon">🛋️</span>
+      <h1 data-en="Apartment Guide">Guide de l'appartement</h1>
+      <p class="subtitle" data-en="Equipment, appliances & tips">Équipements, électroménager &amp; conseils</p>
+    </div>
+
+    <!-- Amenities -->
+    <p class="section-label" data-en="Available amenities">Équipements disponibles</p>
+    <div class="card">
+      <ul class="info-list">
+        <li><span class="li-icon">📶</span><div class="li-content"><strong>WiFi</strong><span data-en="High-speed internet throughout the apartment">Connexion haut débit dans tout l'appartement</span></div></li>
+        <li><span class="li-icon">❄️</span><div class="li-content"><strong data-en="Air conditioning / Heating">Climatisation / Chauffage</strong><span data-en="See below for instructions">Voir instructions ci-dessous</span></div></li>
+        <li><span class="li-icon">📺</span><div class="li-content"><strong>TV</strong><span data-en="[e.g. Smart TV, Netflix available]">[ex : Smart TV, Netflix disponible]</span></div></li>
+        <li><span class="li-icon">🫧</span><div class="li-content"><strong data-en="Washing machine">Machine à laver</strong><span data-en="[e.g. In the bathroom, powder in the cupboard]">[ex : Dans la salle de bain, lessive dans le placard]</span></div></li>
+        <li><span class="li-icon">☕</span><div class="li-content"><strong data-en="Coffee maker">Cafetière</strong><span data-en="[e.g. Nespresso — capsules in the drawer]">[ex : Nespresso — capsules dans le tiroir]</span></div></li>
+        <li><span class="li-icon">🍽️</span><div class="li-content"><strong data-en="Dishwasher">Lave-vaisselle</strong><span data-en="[e.g. Under the sink, tablets in the cabinet]">[ex : Sous l'évier, pastilles dans le placard]</span></div></li>
+        <li><span class="li-icon">🔌</span><div class="li-content"><strong data-en="Adapters / Chargers">Adaptateurs / Chargeurs</strong><span data-en="[e.g. Universal adapter available]">[ex : Adaptateur universel disponible]</span></div></li>
+        <li><span class="li-icon">🧹</span><div class="li-content"><strong data-en="Cleaning equipment">Matériel de nettoyage</strong><span data-en="[e.g. Vacuum, mop, products under the sink]">[ex : Aspirateur, serpillière, produits sous l'évier]</span></div></li>
+      </ul>
+    </div>
+
+    <!-- Heating / AC -->
+    <p class="section-label" data-en="Heating &amp; Air conditioning">Chauffage &amp; Climatisation</p>
+    <div class="card">
+      <div class="card-title"><span>🌡️</span> <span data-en="Thermostat / AC unit">Thermostat / Climatiseur</span></div>
+      <div class="lang-fr">
+        <p>[ex : Télécommande sur la table de nuit. Appuyer sur <strong>MODE</strong> pour alterner chaud/froid, puis régler la température avec les flèches ▲▼.]</p>
+        <p>Température recommandée : <strong>20–22°C</strong></p>
+        <p>⚠️ Merci d'éteindre la clim/le chauffage quand vous sortez.</p>
+      </div>
+      <div class="lang-en">
+        <p>[e.g. Remote control on the bedside table. Press <strong>MODE</strong> to switch between heat/cool, then adjust temperature with ▲▼ arrows.]</p>
+        <p>Recommended temperature: <strong>68–72°F / 20–22°C</strong></p>
+        <p>⚠️ Please turn off the AC/heating when you leave.</p>
+      </div>
+    </div>
+
+    <!-- Kitchen -->
+    <p class="section-label" data-en="Kitchen">Cuisine</p>
+    <div class="card">
+      <div class="card-title"><span>🍳</span> <span data-en="Stove / Oven">Plaques &amp; Four</span></div>
+      <div class="lang-fr"><p>[ex : Plaques à induction. Tournez le bouton, puis sélectionnez la puissance. Four préchauffé à [température]°C pour [durée] min.]</p></div>
+      <div class="lang-en"><p>[e.g. Induction hob. Turn the knob, then select power level. Preheat oven to [temp]°C for [time] min.]</p></div>
+    </div>
+    <div class="card">
+      <div class="card-title"><span>🍽️</span> <span data-en="Dishwasher">Lave-vaisselle</span></div>
+      <div class="lang-fr">
+        <p>Mettez une pastille dans le compartiment prévu, sélectionnez le programme <strong>[ex : ECO 50°]</strong> et appuyez sur Start.</p>
+        <p>Les pastilles se trouvent dans [emplacement].</p>
+      </div>
+      <div class="lang-en">
+        <p>Place a tablet in the compartment, select the <strong>[e.g. ECO 50°]</strong> program and press Start.</p>
+        <p>Tablets are located in [location].</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title"><span>☕</span> <span data-en="Coffee maker">Cafetière</span></div>
+      <div class="lang-fr"><p>[ex : Machine Nespresso. Insérez une capsule, placez une tasse, appuyez sur le bouton. Capsules disponibles dans le tiroir du bas.]</p></div>
+      <div class="lang-en"><p>[e.g. Nespresso machine. Insert a capsule, place a cup, press the button. Capsules available in the bottom drawer.]</p></div>
+    </div>
+
+    <!-- Washing machine -->
+    <p class="section-label" data-en="Laundry">Linge</p>
+    <div class="card">
+      <div class="card-title"><span>🫧</span> <span data-en="Washing machine">Machine à laver</span></div>
+      <div class="lang-fr">
+        <p>Mettez la lessive dans le bac [1/2/3], sélectionnez le programme <strong>[ex : Coton 40°]</strong> et appuyez sur Démarrer.</p>
+        <p>La lessive se trouve dans [emplacement]. Évitez de dépasser <strong>[kg] kg</strong> par cycle.</p>
+      </div>
+      <div class="lang-en">
+        <p>Add detergent in compartment [1/2/3], select program <strong>[e.g. Cotton 40°]</strong> and press Start.</p>
+        <p>Detergent is in [location]. Please don't exceed <strong>[kg] kg</strong> per cycle.</p>
+      </div>
+    </div>
+
+    <!-- TV -->
+    <p class="section-label">TV &amp; Streaming</p>
+    <div class="card">
+      <div class="card-title"><span>📺</span> <span data-en="Television">Télévision</span></div>
+      <div class="lang-fr">
+        <p>[ex : Appuyez sur le bouton power de la télécommande. Les comptes Netflix/Disney+ sont configurés — utilisez-les librement, mais ne modifiez pas les paramètres.]</p>
+        <p>La télécommande est sur [emplacement].</p>
+      </div>
+      <div class="lang-en">
+        <p>[e.g. Press the power button on the remote. Netflix/Disney+ accounts are set up — feel free to use them, but please don't change the settings.]</p>
+        <p>The remote is on [location].</p>
+      </div>
+    </div>
+
+    <!-- Trash -->
+    <p class="section-label" data-en="Waste sorting">Tri des déchets</p>
+    <div class="card">
+      <div class="card-title"><span>♻️</span> <span data-en="Recycling">Recyclage</span></div>
+      <ul class="info-list">
+        <li><span class="li-icon">🟡</span><div class="li-content"><div class="lang-fr"><strong>Bac jaune</strong><span>Plastique, carton, métal</span></div><div class="lang-en"><strong>Yellow bin</strong><span>Plastic, cardboard, metal</span></div></div></li>
+        <li><span class="li-icon">🟢</span><div class="li-content"><div class="lang-fr"><strong>Bac vert</strong><span>Verre</span></div><div class="lang-en"><strong>Green bin</strong><span>Glass</span></div></div></li>
+        <li><span class="li-icon">⚫</span><div class="li-content"><div class="lang-fr"><strong>Bac noir</strong><span>Ordures ménagères non recyclables</span></div><div class="lang-en"><strong>Black bin</strong><span>Non-recyclable household waste</span></div></div></li>
+        <li><span class="li-icon">📍</span><div class="li-content"><div class="lang-fr"><strong>Local poubelles</strong><span>[ex : Au rez-de-chaussée, à gauche de l'entrée]</span></div><div class="lang-en"><strong>Bin room</strong><span>[e.g. Ground floor, left of entrance]</span></div></div></li>
+      </ul>
+    </div>
+
+  </main>
+
+  <!-- ═══ BOTTOM NAV ════════════════════════════════════════ -->
+  <nav class="nav-bottom">
+    <a href="index.html"           class="nav-item"><span class="nav-icon">🏠</span><span class="nav-label" data-en="Home">Accueil</span></a>
+    <a href="arrivee.html"         class="nav-item"><span class="nav-icon">🔑</span><span class="nav-label" data-en="Arrival">Arrivée</span></a>
+    <a href="appartement.html"     class="nav-item"><span class="nav-icon">🛋️</span><span class="nav-label" data-en="Apt">Appart</span></a>
+    <a href="regles.html"          class="nav-item"><span class="nav-icon">📋</span><span class="nav-label" data-en="Rules">Règles</span></a>
+    <a href="recommandations.html" class="nav-item"><span class="nav-icon">📍</span><span class="nav-label" data-en="Tips">Bons plans</span></a>
+    <a href="depart.html"          class="nav-item"><span class="nav-icon">🚪</span><span class="nav-label" data-en="Out">Départ</span></a>
+    <a href="contact.html"         class="nav-item"><span class="nav-icon">📞</span><span class="nav-label">Contact</span></a>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

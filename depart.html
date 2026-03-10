@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-en="Check-out — Apartment Guide">Départ &amp; Check-out — Guide appartement</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ TOP HEADER ═══════════════════════════════════════ -->
+  <header class="top-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-name">
+        🏡 <span data-en="My Apartment">Mon Appartement</span>
+      </a>
+      <div class="header-right">
+        <nav class="desktop-nav">
+          <a href="index.html"            >🏠 <span data-en="Home">Accueil</span></a>
+          <a href="arrivee.html"          >🔑 <span data-en="Arrival">Arrivée</span></a>
+          <a href="appartement.html"      >🛋️ <span data-en="Apartment">Appart</span></a>
+          <a href="regles.html"           >📋 <span data-en="Rules">Règles</span></a>
+          <a href="recommandations.html"  >📍 <span data-en="Tips">Bons plans</span></a>
+          <a href="depart.html"           >🚪 <span data-en="Check-out">Départ</span></a>
+          <a href="contact.html"          >📞 Contact</a>
+        </nav>
+        <button id="lang-btn" onclick="toggleLang()">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN CONTENT ══════════════════════════════════════ -->
+  <main>
+
+    <div class="hero">
+      <span class="hero-icon">🚪</span>
+      <h1 data-en="Departure &amp; Check-out">Départ &amp; Check-out</h1>
+      <p class="subtitle" data-en="Everything to leave smoothly">Tout pour partir sereinement</p>
+    </div>
+
+    <!-- Check-out time -->
+    <p class="section-label" data-en="Check-out time">Heure de départ</p>
+    <div class="highlight">
+      <div class="hl-label" data-en="Latest check-out">Départ au plus tard</div>
+      <div class="hl-value">11h00 — [heure à compléter]</div>
+    </div>
+    <div class="card" style="background: #FEF3EC; border-color: #F2C5A5;">
+      <div class="lang-fr"><p>Si vous avez besoin de partir plus tôt ou plus tard, contactez-nous à l'avance via Airbnb. Nous ferons notre possible pour nous adapter.</p></div>
+      <div class="lang-en"><p>If you need to leave earlier or later, contact us in advance via Airbnb. We'll do our best to accommodate you.</p></div>
+    </div>
+
+    <!-- Checklist -->
+    <p class="section-label" data-en="Departure checklist">Checklist de départ</p>
+    <div class="card">
+      <ol class="step-list">
+        <li class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Vaisselle</strong><p>Faites la vaisselle ou lancez le lave-vaisselle avant de partir. Merci de vider et ranger la machine propre.</p></div>
+            <div class="lang-en"><strong>Dishes</strong><p>Wash the dishes or run the dishwasher before leaving. Please empty and put away once clean.</p></div>
+          </div>
+        </li>
+        <li class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Poubelles</strong><p>Videz les poubelles et déposez-les dans le local dédié (rez-de-chaussée, [emplacement]).</p></div>
+            <div class="lang-en"><strong>Trash</strong><p>Empty the bins and take them to the bin room (ground floor, [location]).</p></div>
+          </div>
+        </li>
+        <li class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Linge de lit &amp; serviettes</strong><p>[ex : Laissez le linge de lit et les serviettes [sur le lit / dans la salle de bain / dans le panier prévu]]. Pas besoin de les laver.</p></div>
+            <div class="lang-en"><strong>Bed linen &amp; towels</strong><p>[e.g. Leave bed linen and towels [on the bed / in the bathroom / in the basket provided]]. No need to wash them.</p></div>
+          </div>
+        </li>
+        <li class="step-item">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Rangement général</strong><p>Rangez les objets utilisés à leur place. Vous n'avez pas besoin de tout aspirer/nettoyer en profondeur, juste de laisser les lieux corrects.</p></div>
+            <div class="lang-en"><strong>Tidying up</strong><p>Put back items you've used. You don't need to deep clean, just leave the place in decent order.</p></div>
+          </div>
+        </li>
+        <li class="step-item">
+          <div class="step-num">5</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Éteindre &amp; fermer</strong><p>Éteignez toutes les lumières, la climatisation/chauffage, la TV et les appareils électroniques. Fermez les fenêtres.</p></div>
+            <div class="lang-en"><strong>Switch off &amp; close</strong><p>Turn off all lights, AC/heating, TV, and electronics. Close all windows.</p></div>
+          </div>
+        </li>
+        <li class="step-item">
+          <div class="step-num">6</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Clés</strong><p>Remettez les clés dans la boîte à clés (même emplacement qu'à l'arrivée) et refermez-la avec le code.</p></div>
+            <div class="lang-en"><strong>Keys</strong><p>Return the keys to the lockbox (same location as on arrival) and close it with the code.</p></div>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Keys return -->
+    <p class="section-label" data-en="Returning the keys">Remise des clés</p>
+    <div class="card">
+      <div class="card-title"><span>🗝️</span> <span data-en="Where to leave the keys">Où laisser les clés</span></div>
+      <div class="lang-fr">
+        <p>Replacez les clés dans la <strong>boîte à clés</strong> à l'entrée de l'immeuble.</p>
+        <p>Refermez-la en composant le code et vérifiez qu'elle est bien fermée.</p>
+        <p>Si vous avez perdu une clé, contactez-nous immédiatement.</p>
+      </div>
+      <div class="lang-en">
+        <p>Return the keys to the <strong>lockbox</strong> at the building entrance.</p>
+        <p>Close it with the code and check it is securely shut.</p>
+        <p>If you've lost a key, please contact us straight away.</p>
+      </div>
+    </div>
+
+    <!-- Goodbye -->
+    <div class="card" style="text-align: center; margin-top: 8px;">
+      <div class="lang-fr">
+        <p style="font-size: 1.1rem; margin-bottom: 8px;">🙏</p>
+        <p><strong>Merci d'avoir séjourné chez nous !</strong></p>
+        <p style="margin-top: 6px;">Votre avis sur Airbnb nous aide beaucoup. Si quelque chose ne s'est pas bien passé, contactez-nous avant de laisser un avis — nous préférons arranger les choses.</p>
+      </div>
+      <div class="lang-en">
+        <p style="font-size: 1.1rem; margin-bottom: 8px;">🙏</p>
+        <p><strong>Thank you for staying with us!</strong></p>
+        <p style="margin-top: 6px;">Your Airbnb review means a lot to us. If anything went wrong, please reach out before leaving a review — we'd love the chance to make it right.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ═══ BOTTOM NAV ════════════════════════════════════════ -->
+  <nav class="nav-bottom">
+    <a href="index.html"           class="nav-item"><span class="nav-icon">🏠</span><span class="nav-label" data-en="Home">Accueil</span></a>
+    <a href="arrivee.html"         class="nav-item"><span class="nav-icon">🔑</span><span class="nav-label" data-en="Arrival">Arrivée</span></a>
+    <a href="appartement.html"     class="nav-item"><span class="nav-icon">🛋️</span><span class="nav-label" data-en="Apt">Appart</span></a>
+    <a href="regles.html"          class="nav-item"><span class="nav-icon">📋</span><span class="nav-label" data-en="Rules">Règles</span></a>
+    <a href="recommandations.html" class="nav-item"><span class="nav-icon">📍</span><span class="nav-label" data-en="Tips">Bons plans</span></a>
+    <a href="depart.html"          class="nav-item"><span class="nav-icon">🚪</span><span class="nav-label" data-en="Out">Départ</span></a>
+    <a href="contact.html"         class="nav-item"><span class="nav-icon">📞</span><span class="nav-label">Contact</span></a>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

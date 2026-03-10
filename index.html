@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-en="Welcome — Your Apartment Guide">Bienvenue — Guide de l'appartement</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ TOP HEADER ═══════════════════════════════════════ -->
+  <header class="top-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-name">
+        🏡 <span data-en="My Apartment">Mon Appartement</span>
+      </a>
+      <div class="header-right">
+        <nav class="desktop-nav">
+          <a href="index.html"            >🏠 <span data-en="Home">Accueil</span></a>
+          <a href="arrivee.html"          >🔑 <span data-en="Arrival">Arrivée</span></a>
+          <a href="appartement.html"      >🛋️ <span data-en="Apartment">Appart</span></a>
+          <a href="regles.html"           >📋 <span data-en="Rules">Règles</span></a>
+          <a href="recommandations.html"  >📍 <span data-en="Tips">Bons plans</span></a>
+          <a href="depart.html"           >🚪 <span data-en="Check-out">Départ</span></a>
+          <a href="contact.html"          >📞 Contact</a>
+        </nav>
+        <button id="lang-btn" onclick="toggleLang()">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN CONTENT ══════════════════════════════════════ -->
+  <main>
+
+    <!-- Welcome hero -->
+    <div class="welcome-hero">
+      <span class="wh-icon">🏡</span>
+      <div class="lang-fr">
+        <h1>Bienvenue !</h1>
+        <p>Nous sommes ravis de vous accueillir dans notre appartement.<br>
+        Ce guide vous aidera à profiter au maximum de votre séjour.</p>
+      </div>
+      <div class="lang-en">
+        <h1>Welcome!</h1>
+        <p>We're delighted to have you in our apartment.<br>
+        This guide will help you make the most of your stay.</p>
+      </div>
+    </div>
+
+    <!-- Section grid -->
+    <p class="section-label" data-en="Quick access">Accès rapide</p>
+
+    <div class="section-grid">
+
+      <a href="arrivee.html" class="section-card">
+        <span class="sc-icon">🔑</span>
+        <span class="sc-label" data-en="Arrival &amp; Access">Arrivée &amp; Accès</span>
+      </a>
+
+      <a href="appartement.html" class="section-card">
+        <span class="sc-icon">🛋️</span>
+        <span class="sc-label" data-en="Apartment Guide">Guide de l'appartement</span>
+      </a>
+
+      <a href="regles.html" class="section-card">
+        <span class="sc-icon">📋</span>
+        <span class="sc-label" data-en="House Rules">Règles de la maison</span>
+      </a>
+
+      <a href="recommandations.html" class="section-card">
+        <span class="sc-icon">📍</span>
+        <span class="sc-label" data-en="Local Recommendations">Bons plans du quartier</span>
+      </a>
+
+      <a href="depart.html" class="section-card">
+        <span class="sc-icon">🚪</span>
+        <span class="sc-label" data-en="Check-out">Départ &amp; Check-out</span>
+      </a>
+
+      <a href="contact.html" class="section-card">
+        <span class="sc-icon">📞</span>
+        <span class="sc-label" data-en="Contact &amp; Emergencies">Contact &amp; Urgences</span>
+      </a>
+
+    </div>
+
+    <!-- Small note -->
+    <div class="card" style="margin-top:22px; text-align:center;">
+      <div class="lang-fr">
+        <p>Une question ? N'hésitez pas à nous contacter via <strong>Airbnb</strong> ou directement depuis la page <a href="contact.html" style="color:var(--primary); font-weight:600;">Contact</a>. Bon séjour ! 🌟</p>
+      </div>
+      <div class="lang-en">
+        <p>Any questions? Feel free to reach us via <strong>Airbnb</strong> or directly from the <a href="contact.html" style="color:var(--primary); font-weight:600;">Contact</a> page. Enjoy your stay! 🌟</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ═══ BOTTOM NAV ════════════════════════════════════════ -->
+  <nav class="nav-bottom">
+    <a href="index.html"           class="nav-item"><span class="nav-icon">🏠</span><span class="nav-label" data-en="Home">Accueil</span></a>
+    <a href="arrivee.html"         class="nav-item"><span class="nav-icon">🔑</span><span class="nav-label" data-en="Arrival">Arrivée</span></a>
+    <a href="appartement.html"     class="nav-item"><span class="nav-icon">🛋️</span><span class="nav-label" data-en="Apt">Appart</span></a>
+    <a href="regles.html"          class="nav-item"><span class="nav-icon">📋</span><span class="nav-label" data-en="Rules">Règles</span></a>
+    <a href="recommandations.html" class="nav-item"><span class="nav-icon">📍</span><span class="nav-label" data-en="Tips">Bons plans</span></a>
+    <a href="depart.html"          class="nav-item"><span class="nav-icon">🚪</span><span class="nav-label" data-en="Out">Départ</span></a>
+    <a href="contact.html"         class="nav-item"><span class="nav-icon">📞</span><span class="nav-label">Contact</span></a>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

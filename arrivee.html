@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-en="Arrival &amp; Access — Apartment Guide">Arrivée &amp; Accès — Guide appartement</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ TOP HEADER ═══════════════════════════════════════ -->
+  <header class="top-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-name">
+        🏡 <span data-en="My Apartment">Mon Appartement</span>
+      </a>
+      <div class="header-right">
+        <nav class="desktop-nav">
+          <a href="index.html"            >🏠 <span data-en="Home">Accueil</span></a>
+          <a href="arrivee.html"          >🔑 <span data-en="Arrival">Arrivée</span></a>
+          <a href="appartement.html"      >🛋️ <span data-en="Apartment">Appart</span></a>
+          <a href="regles.html"           >📋 <span data-en="Rules">Règles</span></a>
+          <a href="recommandations.html"  >📍 <span data-en="Tips">Bons plans</span></a>
+          <a href="depart.html"           >🚪 <span data-en="Check-out">Départ</span></a>
+          <a href="contact.html"          >📞 Contact</a>
+        </nav>
+        <button id="lang-btn" onclick="toggleLang()">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN CONTENT ══════════════════════════════════════ -->
+  <main>
+
+    <div class="hero">
+      <span class="hero-icon">🔑</span>
+      <h1 data-en="Arrival &amp; Access">Arrivée &amp; Accès</h1>
+      <p class="subtitle" data-en="Everything you need to get in">Tout pour entrer sans encombre</p>
+    </div>
+
+    <!-- Check-in time -->
+    <p class="section-label" data-en="Check-in">Horaire d'arrivée</p>
+    <div class="highlight">
+      <div class="hl-label" data-en="Check-in from">Arrivée à partir de</div>
+      <div class="hl-value">15h00 </div>
+    </div>
+
+    <!-- Address -->
+    <p class="section-label" data-en="Address">Adresse</p>
+    <div class="card">
+      <div class="card-title"><span>📍</span> <span data-en="Address">Adresse</span></div>
+      <div class="lang-fr">
+        <p><strong>78 rue du Faubourg du Temple - 75011 - Paris</strong></p>
+        <p> Rez de chaussée <strong> porte tagguée multicolor depuis la rue </strong></p>
+      </div>
+      <div class="lang-en">
+        <p><strong>[78 rue du Faubourg du Temple - 75011 - Paris</strong></p>
+        <p> Ground Floor <strong> colorfull painted door form the street</strong></p>
+      </div>
+    </div>
+
+    <!-- Keys -->
+    <p class="section-label" data-en="Keys">Récupération des clés</p>
+    <div class="card">
+      <div class="card-title"><span>🗝️</span> <span data-en="How to get the keys">Comment récupérer les clés</span></div>
+      <ul class="info-list">
+        <li>
+          <span class="li-icon">📦</span>
+          <div class="li-content">
+            <div class="lang-fr">
+              <strong>Option 1 : remise en main propre 👋​🗝️​ </strong>
+              <span> Si nous sommes disponibles pour vous acceuillir en personne à votre horaire d'arrivée.</span>
+            </div>
+            <div class="lang-en">
+              <strong>Option 1: In-person handover 👋​🗝️ </strong>
+              <span> If we are available to welcome you in person at your arrival time.</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <span class="li-icon">🔢</span>
+          <div class="li-content">
+            <div class="lang-fr">
+              <strong>Option 2 : récupérer la clef dans un commerce proche 🏪🗝️ </strong>
+              <span> Si vous ne sommes pas disponibles pour vous acceuillir, nous utilisons un service de consieregerie, <a href="https://keynest.com/fr/accueil">Keynest</a> dans via une épicerie proche. Nous vous communiquerons les details.</span>
+            </div>
+            <div class="lang-en">
+              <strong>Lockbox code</strong>
+              <span>[CODE TO FILL IN]</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <span class="li-icon">🚪</span>
+          <div class="li-content">
+            <div class="lang-fr">
+              <strong>Contenu de la boîte</strong>
+              <span>[ex : 1 clé appartement + 1 clé boîte aux lettres]</span>
+            </div>
+            <div class="lang-en">
+              <strong>Inside the lockbox</strong>
+              <span>[e.g. 1 apartment key + 1 mailbox key]</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Entry instructions -->
+    <p class="section-label" data-en="Entry instructions">Instructions d'entrée</p>
+    <div class="card">
+      <div class="card-title"><span>🏢</span> <span data-en="Step by step">Pas à pas</span></div>
+      <ol class="step-list">
+        <li class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Porte de l'immeuble</strong><p>Composez le digicode <strong>[CODE]</strong> pour ouvrir la porte principale.</p></div>
+            <div class="lang-en"><strong>Building entrance</strong><p>Enter door code <strong>[CODE]</strong> to open the main door.</p></div>
+          </div>
+        </li>
+        <li class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Ascenseur / Escalier</strong><p>[ex : Prenez l'ascenseur jusqu'au 3ème étage — ou montez par l'escalier à gauche]</p></div>
+            <div class="lang-en"><strong>Elevator / Stairs</strong><p>[e.g. Take the elevator to the 3rd floor — or go up the stairs on the left]</p></div>
+          </div>
+        </li>
+        <li class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Appartement [numéro]</strong><p>L'appartement est au fond du couloir, [à droite / à gauche].</p></div>
+            <div class="lang-en"><strong>Apartment [number]</strong><p>The apartment is at the end of the hallway, [on the right / left].</p></div>
+          </div>
+        </li>
+        <li class="step-item">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <div class="lang-fr"><strong>Ouvrir la porte</strong><p>Tournez la clé [sens] et poussez [direction]. La porte peut être un peu lourde.</p></div>
+            <div class="lang-en"><strong>Open the door</strong><p>Turn the key [direction] and push [direction]. The door may be a bit stiff.</p></div>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <!-- WiFi -->
+    <p class="section-label">WiFi</p>
+    <div class="highlight">
+      <div class="hl-label" data-en="Network name (SSID)">Nom du réseau (SSID)</div>
+      <div class="hl-value">HQ_wifi</div>
+    </div>
+    <div class="highlight">
+      <div class="hl-label" data-en="Password">Mot de passe</div>
+      <div class="hl-value">Mardol321!?</div>
+    </div>
+
+    <!-- Parking & Transport -->
+    <p class="section-label" data-en="Getting here">Accès &amp; Transports</p>
+    <div class="card">
+      <div class="card-title"><span>🚗</span> <span data-en="Parking">Parking</span></div>
+      <div class="lang-fr"><p>[ex : Parking public à 200m, rue [nom]. Stationnement gratuit dans la rue le week-end.]</p></div>
+      <div class="lang-en"><p>[e.g. Public parking 200m away, [street name]. Free street parking on weekends.]</p></div>
+    </div>
+    <div class="card">
+      <div class="card-title"><span>🚇</span> <span data-en="Public transit">Transports en commun</span></div>
+      <div class="lang-fr"><p>[ex : Métro ligne X, station [Nom] à 5 min à pied. Bus [numéro], arrêt [Nom] devant l'immeuble.]</p></div>
+      <div class="lang-en"><p>[e.g. Metro line X, station [Name] 5 min walk. Bus [number], stop [Name] in front of the building.]</p></div>
+    </div>
+
+  </main>
+
+  <!-- ═══ BOTTOM NAV ════════════════════════════════════════ -->
+  <nav class="nav-bottom">
+    <a href="index.html"           class="nav-item"><span class="nav-icon">🏠</span><span class="nav-label" data-en="Home">Accueil</span></a>
+    <a href="arrivee.html"         class="nav-item"><span class="nav-icon">🔑</span><span class="nav-label" data-en="Arrival">Arrivée</span></a>
+    <a href="appartement.html"     class="nav-item"><span class="nav-icon">🛋️</span><span class="nav-label" data-en="Apt">Appart</span></a>
+    <a href="regles.html"          class="nav-item"><span class="nav-icon">📋</span><span class="nav-label" data-en="Rules">Règles</span></a>
+    <a href="recommandations.html" class="nav-item"><span class="nav-icon">📍</span><span class="nav-label" data-en="Tips">Bons plans</span></a>
+    <a href="depart.html"          class="nav-item"><span class="nav-icon">🚪</span><span class="nav-label" data-en="Out">Départ</span></a>
+    <a href="contact.html"         class="nav-item"><span class="nav-icon">📞</span><span class="nav-label">Contact</span></a>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
